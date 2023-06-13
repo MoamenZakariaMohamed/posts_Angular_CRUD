@@ -1,0 +1,17 @@
+<div class="comments-container">
+    <div *ngFor="let comment of postComments" class="comment">
+      <div class="comment-avatar">
+      </div>
+      <div class="comment-content">
+        <div class="comment-header">
+          <h4>{{ comment.name }}</h4>
+          <p>{{ comment.email }}</p>
+        </div>
+        <div class="comment-body">
+          <p>{{ comment.body }}</p>
+        </div>
+     
+      </div>
+    </div>
+  </div>
+  

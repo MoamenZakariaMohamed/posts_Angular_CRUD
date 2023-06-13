@@ -1,0 +1,28 @@
+
+
+<div class="dashboard-content container-custom-witdth ">
+    <div class="content-continer bg-white">
+        <div class="d-flex ali align-items-center">
+          <p-paginator [totalRecords]="postsRecords" [rows]="5" (onPageChange)="paginateData($event)"></p-paginator>
+         </div>
+      <div class="content-continer-information">
+          <div class="content-continer-information-card" *ngFor="let post of postData ">
+            <div class="list-header d-flex justify-content-between mb-2" >
+              <h4> {{post.title}} </h4> 
+              <div class="actions">
+                <i class="pi pi-info-circle" [routerLink]="['/posts', post.id]"></i>
+                <i class="pi pi-file-edit" [routerLink]="['/posts/edit', post.id]" pTooltip="Edit Post" tooltipPosition="bottom"></i>
+              </div>
+            </div>
+         
+
+            <div class="list-body">
+             <p > {{post.body}}</p>
+          </div>
+          </div>
+          
+        </div>
+        
+      </div>
+  </div>
+  

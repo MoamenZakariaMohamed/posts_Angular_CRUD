@@ -1,0 +1,43 @@
+
+.content-continer-information .content-continer-information-card {
+    padding: 12px 24px;
+    background: #F8F8F8;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    position: relative;
+  }
+  
+  .content-continer-information .content-continer-information-card a,
+  .content-continer-information .content-continer-information-card .created-date,
+  .content-continer-information .content-continer-information-card .user {
+  
+    font-size: 20px;
+    display: block;
+  }
+  
+  .content-continer-information .content-continer-information-card a span,
+  .content-continer-information .content-continer-information-card .created-date span,
+  .content-continer-information .content-continer-information-card .user span {
+    font-size: 16px;
+  
+  }
+
+   .list-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .list-header h4 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .list-body p {
+    margin: 0;
+  }
+  .actions i{
+    margin: 3px;
+    cursor: pointer;
+  }
+
+  

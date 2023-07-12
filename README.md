@@ -1,27 +1,29 @@
-# DigitalPayments
+## Posts Angular CRUD
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+This repository contains a simple Angular CRUD (Create, Read, Update, Delete) application that allows users to manage posts. The application provides basic functionality to perform operations such as creating, reading, updating, and deleting posts.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Read posts: Users can view a list of all posts, including their titles and content.
+- Update a post: Users can edit the title and content of an existing post.
+- Delete a post: Users can delete a post from the list.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: The front end of the application is built using the Angular framework.
+- TypeScript: The programming language used for developing the Angular application.
+- HTML/CSS: The markup and styling languages used for designing the user interface.
+- JSONPlaceholder API: The application uses the JSONPlaceholder API as a mock backend for handling CRUD operations.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To get started with the application, follow these steps:
 
-## Running unit tests
+1. Clone the repository: `git clone https://github.com/MoamenZakariaMohamed/posts_Angular_CRUD.git`
+2. Install dependencies: `cd posts-angular-crud && npm install`
+3. Start the development server: `ng serve`
+4. Open the application in your browser: `http://localhost:4200`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Acknowledgements
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- The JSONPlaceholder API for providing a mock backend for the application.
